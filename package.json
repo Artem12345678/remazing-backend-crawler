@@ -1,5 +1,5 @@
 {
-  "name": "crawler",
+  "name": "remazing-crawler",
   "version": "1.0.0",
   "description": "Web Crawler for Remazing",
   "main": "server.js",

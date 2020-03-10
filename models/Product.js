@@ -5,10 +5,10 @@ const { Schema } = mongoose;
 const productSchema = new Schema({
   asin: String,
   title: String,
-  price: Number,
-  reviews: Number,
-  rating: Number,
-  firstListed: Date
+  price: String,
+  reviews: String,
+  rating: String,
+  firstListed: String
 });
 
 module.exports = mongoose.model("Product", productSchema);
